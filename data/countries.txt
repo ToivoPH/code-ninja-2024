@@ -1,0 +1,897 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2758
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "name": "top-countries-realtime",\
+  "sampling": \{\},\
+  "query": \{\
+    "dimensions": "rt:country",\
+    "metrics": [\
+      "rt:activeUsers"\
+    ],\
+    "sort": [\
+      "-rt:activeUsers"\
+    ],\
+    "max-results": 10000\
+  \},\
+  "meta": \{\
+    "name": "Top Cities",\
+    "description": "Top countries for active onsite users."\
+  \},\
+  "data": [\
+    \{\
+      "country": "United States",\
+      "active_visitors": "628"\
+    \},\
+    \{\
+      "country": "Australia",\
+      "active_visitors": "276"\
+    \},\
+    \{\
+      "country": "Germany",\
+      "active_visitors": "189"\
+    \},\
+    \{\
+      "country": "Spain",\
+      "active_visitors": "169"\
+    \},\
+    \{\
+      "country": "Philippines",\
+      "active_visitors": "156"\
+    \},\
+    \{\
+      "country": "Indonesia",\
+      "active_visitors": "153"\
+    \},\
+    \{\
+      "country": "Turkiye",\
+      "active_visitors": "123"\
+    \},\
+    \{\
+      "country": "Canada",\
+      "active_visitors": "121"\
+    \},\
+    \{\
+      "country": "Mexico",\
+      "active_visitors": "113"\
+    \},\
+    \{\
+      "country": "Italy",\
+      "active_visitors": "94"\
+    \},\
+    \{\
+      "country": "Pakistan",\
+      "active_visitors": "82"\
+    \},\
+    \{\
+      "country": "South Africa",\
+      "active_visitors": "82"\
+    \},\
+    \{\
+      "country": "France",\
+      "active_visitors": "73"\
+    \},\
+    \{\
+      "country": "United Kingdom",\
+      "active_visitors": "73"\
+    \},\
+    \{\
+      "country": "Japan",\
+      "active_visitors": "67"\
+    \},\
+    \{\
+      "country": "Netherlands",\
+      "active_visitors": "66"\
+    \},\
+    \{\
+      "country": "Vietnam",\
+      "active_visitors": "66"\
+    \},\
+    \{\
+      "country": "India",\
+      "active_visitors": "61"\
+    \},\
+    \{\
+      "country": "Iraq",\
+      "active_visitors": "58"\
+    \},\
+    \{\
+      "country": "Poland",\
+      "active_visitors": "57"\
+    \},\
+    \{\
+      "country": "Ireland",\
+      "active_visitors": "54"\
+    \},\
+    \{\
+      "country": "Portugal",\
+      "active_visitors": "52"\
+    \},\
+    \{\
+      "country": "Nigeria",\
+      "active_visitors": "51"\
+    \},\
+    \{\
+      "country": "New Zealand",\
+      "active_visitors": "50"\
+    \},\
+    \{\
+      "country": "Kenya",\
+      "active_visitors": "47"\
+    \},\
+    \{\
+      "country": "Brazil",\
+      "active_visitors": "45"\
+    \},\
+    \{\
+      "country": "Denmark",\
+      "active_visitors": "41"\
+    \},\
+    \{\
+      "country": "Argentina",\
+      "active_visitors": "40"\
+    \},\
+    \{\
+      "country": "Finland",\
+      "active_visitors": "38"\
+    \},\
+    \{\
+      "country": "Hong Kong",\
+      "active_visitors": "36"\
+    \},\
+    \{\
+      "country": "Oman",\
+      "active_visitors": "36"\
+    \},\
+    \{\
+      "country": "Colombia",\
+      "active_visitors": "35"\
+    \},\
+    \{\
+      "country": "Bulgaria",\
+      "active_visitors": "34"\
+    \},\
+    \{\
+      "country": "Romania",\
+      "active_visitors": "34"\
+    \},\
+    \{\
+      "country": "Saudi Arabia",\
+      "active_visitors": "34"\
+    \},\
+    \{\
+      "country": "South Korea",\
+      "active_visitors": "34"\
+    \},\
+    \{\
+      "country": "Austria",\
+      "active_visitors": "32"\
+    \},\
+    \{\
+      "country": "Malaysia",\
+      "active_visitors": "32"\
+    \},\
+    \{\
+      "country": "Chile",\
+      "active_visitors": "31"\
+    \},\
+    \{\
+      "country": "Qatar",\
+      "active_visitors": "27"\
+    \},\
+    \{\
+      "country": "Russia",\
+      "active_visitors": "27"\
+    \},\
+    \{\
+      "country": "Cameroon",\
+      "active_visitors": "26"\
+    \},\
+    \{\
+      "country": "Haiti",\
+      "active_visitors": "26"\
+    \},\
+    \{\
+      "country": "Zambia",\
+      "active_visitors": "26"\
+    \},\
+    \{\
+      "country": "Croatia",\
+      "active_visitors": "25"\
+    \},\
+    \{\
+      "country": "Hungary",\
+      "active_visitors": "25"\
+    \},\
+    \{\
+      "country": "Cyprus",\
+      "active_visitors": "24"\
+    \},\
+    \{\
+      "country": "Cambodia",\
+      "active_visitors": "23"\
+    \},\
+    \{\
+      "country": "Thailand",\
+      "active_visitors": "23"\
+    \},\
+    \{\
+      "country": "Azerbaijan",\
+      "active_visitors": "22"\
+    \},\
+    \{\
+      "country": "Iran",\
+      "active_visitors": "22"\
+    \},\
+    \{\
+      "country": "Uzbekistan",\
+      "active_visitors": "22"\
+    \},\
+    \{\
+      "country": "Israel",\
+      "active_visitors": "21"\
+    \},\
+    \{\
+      "country": "Norway",\
+      "active_visitors": "21"\
+    \},\
+    \{\
+      "country": "Andorra",\
+      "active_visitors": "20"\
+    \},\
+    \{\
+      "country": "Lebanon",\
+      "active_visitors": "20"\
+    \},\
+    \{\
+      "country": "Belgium",\
+      "active_visitors": "19"\
+    \},\
+    \{\
+      "country": "Georgia",\
+      "active_visitors": "19"\
+    \},\
+    \{\
+      "country": "Malta",\
+      "active_visitors": "19"\
+    \},\
+    \{\
+      "country": "Trinidad & Tobago",\
+      "active_visitors": "19"\
+    \},\
+    \{\
+      "country": "Benin",\
+      "active_visitors": "18"\
+    \},\
+    \{\
+      "country": "Switzerland",\
+      "active_visitors": "18"\
+    \},\
+    \{\
+      "country": "Bangladesh",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Ethiopia",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Guam",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Kuwait",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Moldova",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Somalia",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Sweden",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Taiwan",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Zimbabwe",\
+      "active_visitors": "17"\
+    \},\
+    \{\
+      "country": "Albania",\
+      "active_visitors": "16"\
+    \},\
+    \{\
+      "country": "Peru",\
+      "active_visitors": "16"\
+    \},\
+    \{\
+      "country": "Ukraine",\
+      "active_visitors": "16"\
+    \},\
+    \{\
+      "country": "Cuba",\
+      "active_visitors": "15"\
+    \},\
+    \{\
+      "country": "Guadeloupe",\
+      "active_visitors": "15"\
+    \},\
+    \{\
+      "country": "Morocco",\
+      "active_visitors": "15"\
+    \},\
+    \{\
+      "country": "Puerto Rico",\
+      "active_visitors": "15"\
+    \},\
+    \{\
+      "country": "Venezuela",\
+      "active_visitors": "15"\
+    \},\
+    \{\
+      "country": "Belarus",\
+      "active_visitors": "14"\
+    \},\
+    \{\
+      "country": "Jamaica",\
+      "active_visitors": "14"\
+    \},\
+    \{\
+      "country": "Singapore!!!",\
+      "active_visitors": "14"\
+    \},\
+    \{\
+      "country": "Tajikistan",\
+      "active_visitors": "14"\
+    \},\
+    \{\
+      "country": "Tunisia",\
+      "active_visitors": "14"\
+    \},\
+    \{\
+      "country": "Armenia",\
+      "active_visitors": "13"\
+    \},\
+    \{\
+      "country": "Bermuda",\
+      "active_visitors": "13"\
+    \},\
+    \{\
+      "country": "Ecuador",\
+      "active_visitors": "13"\
+    \},\
+    \{\
+      "country": "Egypt",\
+      "active_visitors": "13"\
+    \},\
+    \{\
+      "country": "Estonia",\
+      "active_visitors": "13"\
+    \},\
+    \{\
+      "country": "Guatemala",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "Laos",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "Paraguay",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "Rwanda",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "United Arab Emirates",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "Uruguay",\
+      "active_visitors": "12"\
+    \},\
+    \{\
+      "country": "Bosnia & Herzegovina",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Brunei",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Burkina Faso",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Burundi",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "China",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "El Salvador",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Liberia",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Luxembourg",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Malawi",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Maldives",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "North Macedonia",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Sri Lanka",\
+      "active_visitors": "11"\
+    \},\
+    \{\
+      "country": "Bahrain",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Barbados",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Ghana",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Jordan",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Macao",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Namibia",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Papua New Guinea",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Seychelles",\
+      "active_visitors": "10"\
+    \},\
+    \{\
+      "country": "Afghanistan",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Botswana",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Gibraltar",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Kazakhstan",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Kyrgyzstan",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Latvia",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Lithuania",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Mozambique",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Slovakia",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "St. Pierre & Miquelon",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Syria",\
+      "active_visitors": "9"\
+    \},\
+    \{\
+      "country": "Algeria",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Bolivia",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Ca te daIvoire",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Greece",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Madagascar",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Nicaragua",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Palestine",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "U.S. Virgin Islands",\
+      "active_visitors": "8"\
+    \},\
+    \{\
+      "country": "Angola",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Antarctica",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Dominican Republic",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Libya",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Martinique",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Panama",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Senegal",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Togo",\
+      "active_visitors": "7"\
+    \},\
+    \{\
+      "country": "Chad",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Djibouti",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Eswatini",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Grenada",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Honduras",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Jersey",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Mayotte",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Niger",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Northern Mariana Islands",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "South Sudan",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Tanzania",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Turkmenistan",\
+      "active_visitors": "6"\
+    \},\
+    \{\
+      "country": "Bhutan",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "Cayman Islands",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "Curasao",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "Lesotho",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "Nepal",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "St. BarthAclemy",\
+      "active_visitors": "5"\
+    \},\
+    \{\
+      "country": "Aruba",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Belize",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Cape Verde",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Guernsey",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Isle of Man",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "New Caledonia",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Serbia",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "St. Lucia",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Suriname",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "Uganda",\
+      "active_visitors": "4"\
+    \},\
+    \{\
+      "country": "American Samoa",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Equatorial Guinea",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Fiji",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Guinea-Bissau",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Iceland",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Kosovo",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Micronesia",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Mongolia",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Yemen",\
+      "active_visitors": "3"\
+    \},\
+    \{\
+      "country": "Caribbean Netherlands",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Congo - Brazzaville",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Costa Rica",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Czechia!!!",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Dominica",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Faroe Islands",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "French Polynesia",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Guyana",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Mali",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Mauritania",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Myanmar",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Niue",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Sierra Leone",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Sint Maarten",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Solomon Islands",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "St. Vincent & Grenadines",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Salo Tomaco & Prancipe",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Timor-Leste",\
+      "active_visitors": "2"\
+    \},\
+    \{\
+      "country": "Anguilla",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "British Indian Ocean Territory",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "British Virgin Islands",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Congo - Kinshasa",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "French Guiana",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Gabon",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Gambia",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Greenland",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Guinea",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Liechtenstein",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Mauritius",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Montenegro",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Montserrat",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Palau",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Samoa",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Slovenia",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "St. Helena",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "St. Martin",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Tonga",\
+      "active_visitors": "1"\
+    \},\
+    \{\
+      "country": "Vanuatu",\
+      "active_visitors": "1"\
+    \}\
+  ],\
+  "totals": \{\},\
+  "taken_at": "2023-09-17T09:01:59.720Z"\
+\}}
