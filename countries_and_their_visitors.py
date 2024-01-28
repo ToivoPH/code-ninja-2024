@@ -49,11 +49,13 @@ file = open(fname[0]).readlines()
 # with open(fname[0]) as file:
   # for line in file.readlines()
 
-cvd = {
-  'country': [],
-  'visitors': [],
+# countryVisitorDict = {
+#   'country': [],
+#   'visitors': [],
   
-}
+# }
+
+
 country = []
 visitors = []
 main_output = []
@@ -62,7 +64,7 @@ uppercase_country = []
 for x in file:
   if x.find('"country"') >= 0:
     country.append(x[18:-4])
-
+    
 for x in country:
   uppercase_country = [word.upper() for word in country]
 
@@ -70,7 +72,7 @@ for x in file:
   if x.find('"active_visitors"') >= 1:
     visitors.append(x[26:-3])
 
-x = zip(uppercase_country, visitors) #, strict=True)
+x = zip(uppercase_country, visitors)
 
 with open('results/countries_and_visitors.txt', 'w') as f:
   #sent to the results folder
@@ -81,20 +83,40 @@ with open('results/countries_and_visitors.txt', 'w') as f:
     #the string
     f.write(content)#write the formatted string in
 
-# output to json
-
-# make a dictionary cvD = {country_name: visitor_number}
-cvD = {}
-for c, v in zip(uppercase_country, visitors):
-  cvD[c] = v
-
+# quicker way using dict()   :-)
+countryVisitorDict = dict(zip(uppercase_country, visitors))
 # turn it into JSON format
-JcvD = json.dumps(cvD) # the string to write to the file
-print(JcvD)
+
+visitorDictJson = json.dumps(countryVisitorDict) # the string to write to the file
+print(visitorDictJson)
 
 # write to the file
 f = open("results/countries_and_visitors.json", "a")
-f.write(JcvD)
+f.write(visitorDictJson)
 f.close()
 
 #get the total number of countries, the total number of visitors
+total_countries = len(country)
+
+total_visitors_per_country = 0
+for i in range(len(visitors)):
+  total_visitors_per_country += i
+total_visitors = total_visitors_per_country
+
+#csv formatting
+#use the dictionary that is on line 87
+import csv
+
+
+ 
+# name of csv file
+filename = "results/visitors_countries_csvfile.csv"
+ 
+# writing to csv file
+with open(filename, 'w') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=['country_name', 'nr_visitors'])
+    writer.writeheader()
+
+    for c, v in countryVisitorDict.items():
+      # print({ 'country_name': c, 'nr_visitors': v })
+      writer.writerow({ 'country_name': c, 'nr_visitors': v })
